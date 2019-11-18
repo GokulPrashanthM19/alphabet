@@ -50,16 +50,19 @@ Collections are (new collection will create based on email domain when email dom
 New Collection - (User table - insert the data into specific domain based on emailid).
 
 
-OverView of micro services
+OverView of micro services:
+--------------------------------------
 Two separate micro services files to handle the API calls:
 company.service.js
 account.service.js
 
-GateWay Service file: 
+GateWay Service file:
+-------------------------------------
 api.service.js
 
-API's:
 
+API's:
+-------------------------------------
 "GET /company/getallcompanylist" sample data ()
 "DELETE /company/delete/:id" 
 "POST /account/create" 
@@ -67,14 +70,14 @@ API's:
 
 
 Below is the Postman Link:
-
+------------------------------------
 https://www.getpostman.com/collections/98316d9dcdd206b38601
 
 
 Docker did not supported to Windows 10. but it support for Windows 10 pro version.
 In my machine i don't have Windows 10 pro.
 
-POC is have created the Api's with micro service and mongo db used.
+Api's is created with micro services and mongo db used.
 
 
 
